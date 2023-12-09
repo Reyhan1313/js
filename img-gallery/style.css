@@ -1,0 +1,30 @@
+body{ 
+    margin: 100px auto;
+} 
+
+.main-container{ 
+    width: 80%;  
+    margin: 0 auto;
+} 
+
+
+    #main-img{
+        border-radius: 30px; 
+        height: 450px;
+    } 
+.row-img{ 
+    margin-top: 10px;
+    display: flex; 
+    flex-direction: row; 
+justify-content: space-around; 
+align-items: center;
+
+} 
+.row-img>img{  
+   cursor: pointer;
+    text-align: center;
+    border-radius: 15px; 
+    width: 180px; 
+    height: 120px;
+    
+}
